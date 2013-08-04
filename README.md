@@ -210,3 +210,24 @@ $(".foo div#bar:eq(0)")
 * What are your favorite parts about the developer tools you use?
 * Do you have any pet projects? What kind?
 * What's your favorite feature of Internet Explorer?
+* 
+
+
+
+1. what is the different between cookies and localstroage
+2. how do you deal with cross-domain issues with ajax requests, what do you need to know before
+3. what are the steps to make a site faster
+4. css sprites
+5. onload addeventlistiner on IE 
+6. how prototyping in javacript works, and how js inheritance  works
+7. what is javscript hoisting 
+8. how jquery chain works and why its important http://en.wikipedia.org/wiki/Fluent_interface
+9.What's a doctype do, and how many can you name
+
+
+Make this work: javascript [1,2,3,4,5].duplicator(); 
+
+Array.prototype.duplicator = function (){
+cur = this.slice(0);
+for(var i=0;i<cur.length;i++){this.push(cur[i])}
+}
