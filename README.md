@@ -89,7 +89,8 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 ```javascript
 function Person(){} var person = Person() var person = new Person()
 ```
-* What's the difference between `.call` and `.apply`?
+* What's the difference between `.call` and `.apply`? => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
+  => apply is very similar to call, except for the type of arguments it supports. You can use an arguments array instead of a named set of parameters. With apply, you can use an array literal, for example, fun.apply(this, ['eat', 'bananas']), or an Array object, for example, fun.apply(this, new Array('eat', 'bananas')).
 * What's the difference between `undefined` and `null`?
 * explain `Function.prototype.bind`?
 * When do you optimize your code?
