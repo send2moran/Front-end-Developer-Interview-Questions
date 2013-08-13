@@ -70,11 +70,11 @@ The majority of the questions were plucked from an [oksoclap](http://oksoclap.co
 
 ### JS-Specific Questions
 
-* Explain event delegation
+* Explain event delegation => http://davidwalsh.name/event-delegate
 * Explain how `this` works in JavaScript
 * Explain how prototypal inheritance works
 * How do you go about testing your JavaScript?
-* AMD vs. CommonJS?
+* AMD vs. CommonJS? => http://www.youtube.com/watch?v=PAGpMagiabM
 * What's a hashtable?
 * What are `undefined` and `undeclared` variables?
 * What is a closure, and how/why would you use one?
